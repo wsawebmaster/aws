@@ -1,0 +1,50 @@
+# 📊 RELATÓRIO DE IMPLEMENTAÇÃO DE MEDIDAS DE SEGURANÇA
+
+Data: 30/03/2024
+Empresa: Abstergo Industries
+Responsável: Wagner Andrade
+
+## 📃 Introdução
+
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por Wagner Andrade. O objetivo do projeto foi elencar 3 medidas de segurança em conjunto dos serviços AWS com a finalidade de aumentar a segurança na empresa.
+
+## 👨‍💻 Descrição do Projeto
+
+O projeto de implementação de ferramentas foi dividido em 3 medidas de segurança. A seguir, serão descritas as etapas da implementação:
+
+📌 Medida 1:
+
+- Implementação de Controle de Acesso Baseado em Função (RBAC - Role-Based Access Control)
+- Estratégia de segurança que permite controlar o acesso aos recursos da AWS com base nas funções atribuídas aos usuários. Isso significa que os usuários recebem apenas as permissões necessárias para realizar suas tarefas específicas.
+- Por exemplo, em uma equipe de desenvolvimento, os desenvolvedores podem ter permissão apenas para modificar o código fonte e acessar determinados recursos do serviço AWS, enquanto os administradores de sistema têm acesso total para configurar e gerenciar a infraestrutura.
+
+
+📌 Medida 2:
+
+- Monitoramento e Detecção de Anomalias em Tempo Real:
+- Ferramentas de monitoramento e detecção de anomalias em tempo real, como Amazon CloudWatch e AWS CloudTrail, ajudam a identificar atividades suspeitas ou comportamentos anormais na infraestrutura da AWS. Isso permite uma resposta rápida a potenciais ameaças à segurança.
+- Ao configurar alertas no CloudWatch para detectar picos de comportamentos e tráfego anormais ou acessos não autorizados a recursos específicos, a equipe de segurança pode ser notificada imediatamente e tomar medidas corretivas.
+
+
+📌 Medida 3:
+
+- Implementação de Criptografia de Dados em Repouso e em Trânsito:
+- Criptografia de dados em repouso (armazenados) e em trânsito (em movimento) é essencial para proteger informações confidenciais contra acessos não autorizados. A AWS oferece serviços como AWS Key Management Service (KMS) e AWS Certificate Manager para facilitar a implementação de criptografia.
+- Por exemplo, ao armazenar dados sensíveis em buckets do Amazon S3, é recomendável usar o KMS para gerenciar chaves de criptografia e garantir que os dados estejam protegidos, mesmo se forem acessados por pessoas não autorizadas. Além disso, ao configurar comunicações entre serviços da AWS, como instâncias EC2 e bancos de dados RDS, é importante usar certificados SSL/TLS para criptografar o tráfego de rede.
+
+## 📈 Conclusão
+
+A implementação de ferramentas de segurança na empresa Abstergo Industries _é esperado que a implementação dessas medidas proporcione economia, alta disponibilidade e acesso mais rápido e seguro às aplicações_, o que aumentará a eficiência e a produtividade da empresa melhorando performance e nível de segurança. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+
+## 📎 Anexos
+
+- [Amazon RBAC](hthttps://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/id_roles.html)
+- [Amazon CloudWatch](https://docs.aws.amazon.com/pt_br/AmazonCloudWatch/latest/DeveloperGuide/WhatIsCloudWatch.html)
+- [Amazon KMS](https://aws.amazon.com/pt/kms/)
+
+
+🪪 Assinatura do Responsável pelo Projeto:
+
+Wagner Andrade <br />
+[LinkedIn](https://www.linkedin.com/in/wsawebmaster/)<br />
+wsawebmaster@yahoo.com.br
