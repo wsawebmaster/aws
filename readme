@@ -1,0 +1,49 @@
+# 📊 RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+Data: 30/03/2024
+Empresa: Abstergo Industries
+Responsável: Wagner Andrade
+
+## 📃 Introdução
+
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por Wagner Andrade. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.
+
+## 👨‍💻 Descrição do Projeto
+
+O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
+
+📌 Etapa 1:
+
+- Amazon RDS (Relational Database Service)
+- Gerenciamento de banco de dados relacionais.
+- Hospedar o banco de dados do seu sistema de PDV, reduzindo custos excessivos com hardware e administração de banco de dados, além de garantir alta disponibilidade e segurança dos dados de transações de vendas.
+
+
+📌 Etapa 2:
+
+- Amazon CloudFront
+- Acesso rápido a informação com baixa latência e alta velocidade
+- Melhorar a experiência do usuário e a eficiência do sistema, reduzindo o tempo de espera durante as transações de vendas devido acesso a conteúdo estático, como imagens de produtos e páginas da web.
+
+📌 Etapa 3:
+
+- Amazon ECS (Elastic Container Service)
+- Orquestração de contêineres.
+- Executar e gerenciar contêineres que hospedam os componentes do seu sistema de PDV, como aplicativos de frontend e backend, facilitando o trabalho tanto dos desenvolvedores quanto dos operadores além de permitir escalar automaticamente os contêineres com base na demanda de tráfego.
+
+## 📈 Conclusão
+
+A implementação de ferramentas na empresa Abstergo Industries _tem como esperado a economia com alta disponibilidade e acesso mais rápido e seguro a aplicação_, o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+
+## 📎 Anexos
+
+- [Amazon RDS](https://aws.amazon.com/pt/rds/)
+- [Amazon RDS](https://aws.amazon.com/pt/cloudfront/)
+- [Amazon RDS](https://aws.amazon.com/pt/ecs/)
+
+
+🪪 Assinatura do Responsável pelo Projeto:
+
+Wagner Andrade <br />
+[LinkedIn](https://www.linkedin.com/in/wsawebmaster/)<br />
+wsawebmaster@yahoo.com.br
